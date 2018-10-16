@@ -1,0 +1,161 @@
+body{
+	margin:0;
+	padding:0;
+	background-image: url(../images/on.jpg);
+	opacity: 1;
+	background-size:cover;
+	background-position:center;
+	
+}
+
+#box {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 880px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 20px;
+    margin-top: 175px;
+    padding: 35px;
+}
+
+.box p{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+
+}
+
+.box input{
+	width:100%;
+	margin-bottom:20px;
+}
+
+.box input[type="text"], input[type="password"]{
+	border:none;
+	border-bottom: 1px solid #fff;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size:16px;
+}
+
+
+
+.box input[type="submit"]{
+	 border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.box input[type="submit"]:hover
+{
+	cursor:pointer;
+	background:#39dc79;
+	color:#000;
+}
+
+/*#main-wrapper{
+	width:500px;
+	margin: 0 auto;
+	background:white;
+	padding:5px;
+	border-radius:10px;
+	border: 2px solid #2c3e50;
+}*/
+
+
+	
+
+
+.myform{
+	width:450px;
+	margin: 0 auto;
+
+}
+.inputvalues{
+	width:400px;
+	margin:0 auto;
+	padding:5px;
+	
+	
+}
+.loginbtn{
+	margin-top:10px;
+	background-color:#27ae60;
+	padding:5px;
+	color:white;
+	width:400px;
+	font-size:18px;
+	font-weight:bold;
+	
+}
+
+.regbtn{
+	margin-top:10px;
+	background-color:#3498db;
+	padding:5px;
+	color:white;
+	width:200px;
+	font-size:18px;
+    font-weight:bold;
+
+}
+
+.signupbtn{
+	margin-top:10px;
+	background-color:#3498db;
+	padding:5px;
+	color:white;
+	width:400px;
+	font-size:18px;
+	font-weight:bold;
+}
+
+.backbtn{
+	margin-top:10px;
+	background-color:red;
+	padding:5px;
+	color:white;
+	width:200px;
+	font-size:18px;
+	font-weight:bold;
+}
+
+.logoutbtn{
+	margin-top:10px;
+	background-color:#DA3E64;
+	padding:5px;
+	color:white;
+	width:50%;
+	font-size:18px;
+	font-weight:bold;
+}
+h2{
+	margin:0;
+	padding:0 0 20px;
+	text-align:center;
+	font-size:22px;
+}
+.logo{
+
+	width:10%;
+	height:10%;
+	padding:left;
+
+}	
+
+img{
+	width:10%;
+	height:15%;
+	padding:left;
+}
